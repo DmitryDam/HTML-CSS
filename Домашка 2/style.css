@@ -1,0 +1,101 @@
+body 
+{
+	background: blue;
+}
+
+h2 {
+	height: 25px;
+	width: 100px;
+	background-color: red;
+	color: white;
+}
+.p1 {
+	height: 50px;
+	width: 250px;
+	background-color: #4200ff;
+}
+hr {
+	width: 300px;
+	margin-left: 0px;
+}
+.p2 {
+	height: 40px;
+	width: 250px;
+	background-color: yellow;
+}
+.one {
+	height: 45px;
+	width: 75px;
+	background-color: red;
+
+}
+.two {
+	height: 45px;
+	width: 100px;
+	background-color: #ffa300;
+
+}
+.three {
+	height: 45px;
+	width: 125px;
+	background-color: #4200ff;
+
+}
+.four {
+	height: 100px;
+	width: 250px;
+	background-color: #ffa300;
+	font-size: 35px;
+	text-align: center;
+	line-height: 80px;
+
+	}
+.grey {
+	height: 200px;
+	width: 550px;
+	background-color: #d6d7be;
+}
+h1 {
+	color: #532601;
+}
+.h2 {
+	color: black;
+	width: 100%;
+	background-color: transparent;
+}
+h3 {
+	color: #875327;
+}
+a {
+	color: green;
+}
+.formula1{
+	background: white;
+	width: 530px;
+	border: dashed;	
+	font-size: 20px;
+	line-height: 70%;
+}
+
+.p3{
+	font-size: 25px;
+}
+
+.formula2{
+	background: white;
+	width: 460px;
+	font-size: 20px;
+	border: dashed;	
+}
+.p4{
+	font-style: italic;
+	font-size: 25px;
+}
+.blue {
+	color: blue;
+	font-style: normal;
+}
+.red {
+	color: red;
+	font-style: normal;
+}

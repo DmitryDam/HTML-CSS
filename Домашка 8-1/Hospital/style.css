@@ -1,0 +1,132 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #09859d;
+	margin:3% 2% 2%; 
+}
+
+.wrap {
+	/*width: 98%;*/
+	max-width:1200px;
+	margin:0 auto;
+	background:#fff;
+	min-height: 100px;
+	overflow: hidden;
+}
+.wrap1 {
+	width: 80%;
+/*	max-width:1200px;*/
+	margin:0 auto;
+	background:#fff;
+	min-height: 100px;
+}
+.wrap1 p {
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 28px; 
+}
+.logo {
+	/*max-width: 800px;*/
+	width: 90%;
+	display: block;
+	margin: 0 auto 1%;
+	height: 20%;
+}
+.friends {
+	text-align: center;
+	width: auto;
+	background: white;
+	padding-top: 10px;
+/*	font-family: Arial, Tahoma, Verdana;
+	font-size: 20px; */
+	}
+ul {
+	padding-left: 10%;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 28px; 
+	padding-bottom: 5%;
+}
+.i1 {
+	float: left;
+	width: 48%;
+}
+.i2 {
+	float: right;
+	width: 48%;
+}
+img {
+	width: 100%;
+	margin-bottom: 5%;
+}
+.i1 p, .i2 p {
+	text-align: center;
+	font-size: 22px; 
+}
+.clearfix {
+	clear: both;
+}
+.order1 {
+	width:100%;
+	min-height: 50px;
+	border-radius: 5px;
+	background-color:#f04736;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 28px; 
+	margin: 5% 0;
+}
+footer {
+	width: 90%;
+	margin: 20px auto;
+	height: 30%;
+	min-height: 100px;
+	background: #09859d;
+	/*overflow: hidden;*/
+}
+.footimg img {
+	width: 30%;
+	display: inline-block;
+/*	text-align: center;
+	margin:0 auto ;*/
+}
+.footimg {
+	margin:0 auto ;
+	width: 20%;
+/*	background: pink;*/
+    padding-top:4% ;
+    padding-bottom: 2%;
+    padding-left: 6%;
+}
+.fwp {
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 28px; 
+	text-align: center;
+	color: white;
+}
+.footerp{
+	color: white;
+	text-align: center;
+	font-size: 26px;
+	margin-bottom: 5px;
+}
+.white-a {
+	color: white;
+	font-size: 24px;
+	margin-top: 5px;
+/*	text-decoration: none;*/
+}
+@media all and (max-width: 800px) {
+
+.i1, .i2 {
+	width: 100%;}
+	.i1 p, .i2 p {
+	text-align: center;
+	font-size: 28px; }
+}

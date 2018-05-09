@@ -1,0 +1,82 @@
+.item7, .link9 {
+	display:inline-block; 
+}
+
+.item li {
+	background-color: #134359;
+	color: white;
+	width: 13.8%;
+	text-align: center;
+}
+.row .navigation{
+	height: 440px;
+	color: white;
+	background-color: #134359;
+}
+.logo {
+	min-height: 50px;
+	height: 100%;
+	background-color: #134359;
+	color: white;
+	text-align: center;
+	line-height: 50px;
+}
+.row .name {
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 0;
+}
+.link {
+	margin-top: 0;
+	text-align: right;
+} 
+.link li {
+	padding: 15px 1.4% 0 3.4%;
+}
+.row {
+	margin-bottom:0;
+	padding:0; 
+}
+.row .center1 .card1 {
+	height: 200px;
+	padding:0; 
+}
+.row .center2 {
+	height: 100px;
+	color: white;
+	width: 100%;
+	text-align: center;
+}
+.row .center3 {
+	height: 100px;
+	color: white;
+	width: 100%;
+	text-align: center;
+    padding: 0;
+}
+p {
+	margin: 0 auto;
+}
+.card1 {
+	height: 100px;
+	color: white;
+	width: 100%;
+	margin: 0;
+	background-color: #134359;
+}
+.head1, .head2{
+	height: 100px;
+	width: 100%;
+	margin: 0;
+}
+.row .card2 {
+	height: 100px;
+	color: white;
+	width: 100%;
+	margin: 0;
+	background-color: #134359;
+	text-align: center;
+}
+.text1 {
+	font-size: 0.7em;
+}

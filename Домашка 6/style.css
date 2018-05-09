@@ -1,0 +1,87 @@
+/*body {
+	padding: 20px;
+}*/
+.p1 {
+	background: green;
+}
+.p1:hover {
+	background: yellow;
+
+}
+.p1:active {
+	background: red; 
+}
+
+.p2 {background: violet;
+
+}
+.p2:hover {
+	background: brown;
+}
+.p2:active {
+	background: gold;
+}
+input:focus {
+	border: 5px solid green;
+}
+.task3 p:nth-child(even) {
+	background: grey;
+	
+}
+.task4::first-letter {
+	color: red;
+	font-size: 2em;
+	font-family: georgia;
+}
+
+/*p::before {
+	content: "\2602";
+}*/
+p:not(.task4)::before {
+    content: "\2602";
+    color: red;
+	font-size: 2em;
+	font-family: georgia;
+}
+p::after {
+	content: "*";
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.task7 {
+	width: 400px;
+	height: 50px;
+/*	border: 1px solid black; */
+	position: relative;
+/*	display: inline;*/
+}
+.task7::after {
+	content: "";
+	display: block;
+	clear: both;
+
+}
+.flat {
+	height: 20px;
+	width: 30px;
+	background: black;
+	/*margin-left: 30px;*/
+	float: left;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.triangle::after {
+	content: "\25C2";
+	font-size: 30px;
+	position: absolute;
+	left: 10px;
+}
+/*.flat::before {
+	content: "\25C2";*/
+/*	margin-right: 100px
+	height:10px;
+	width: 5px;*/
+
+}

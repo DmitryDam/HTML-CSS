@@ -1,0 +1,57 @@
+body {
+	background-color: black;
+	/*padding: 5% auto;*/
+}
+.container {
+	background-color: white;
+/*	opacity: 0.5;*/
+    /*padding-bottom: 5px;*/
+    /*padding: 5px;*/
+    border: 5px solid white;
+    margin: 2% auto;
+ /*   padding-bottom: -10px;*/
+} 
+.row: last-child {
+	margin-bottom:10px;
+}
+div: last-of-type {
+	margin-bottom:10px;
+}
+/*.col {
+		margin: 5px;
+}*/
+.div12 {
+	height: 33.3vh;
+	/*width: 30px;*/
+	background-color: #134359;
+	/*margin-top: 5px;*/
+	/*margin-bottom: -10px;*/
+	overflow: hidden;
+
+}
+.div3, .div6, .div9 {
+	height: 16.5vh;
+/*	border: 1px solid black;*/
+	background-color: #134359;
+/*	margin-bottom: 0px;*/
+}
+/*.row {
+    margin-bottom: 10px;
+}*/
+span, p {
+	text-align: center;
+	display: block;
+	font-style:italic;
+}
+span {
+	font-size: 70px;
+	margin-top: 30px;
+}
+p {
+	margin-top: 5px;
+	font-size: 20px;
+}
+.row .last {
+	margin-bottom: -15px;
+}
+

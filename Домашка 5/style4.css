@@ -1,0 +1,33 @@
+.fullwrap {
+	width: 800px;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 20px auto;
+	background:#850000;
+}
+.header, .footer {
+	min-height: 120px;
+	background: blue;
+}
+.wrap {
+	border: 1px solid black;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background: yellow;
+}
+.main, .sidebar {
+	width: 504px;
+	min-height: 300px;
+	border: 1px solid black;
+	float: left;
+	background: green;
+	}
+.sidebar {
+	float: right;
+	background: red;
+	width: 252px;
+}
+.clear {
+	clear: both;
+}

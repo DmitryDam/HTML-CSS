@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+}
+body {
+/*	width: 80%;*/
+	max-width:1200px;
+}
+header {
+	background-color: #ff9800;
+}
+h1 {
+	padding: 20px;
+	font-size: 30px;
+}
+h2 {
+	padding: 10px 0;
+	font-size: 26px;
+}
+header p {
+	padding: 0 20px 10px;
+}
+p {
+	padding: 10px 0;
+	line-height: 1.5;
+}
+.city1, .city2, .city3{
+	width: 33.33333%;
+	padding: 10px 20px;
+	float: left; 
+}
+ .clearfix {
+	clear: both;
+} 
+img {
+	width: 48%;
+	float: left;
+	margin: 1%;
+}
+@media all and (max-width: 960px) {
+
+.city1, .city2, .city3{
+	width: 100%;}
+}
+

@@ -1,0 +1,123 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: sans-serif;
+	font-size:16px;
+}
+.wrap {
+	max-width: 1200px;
+	width: 80%;
+	margin: 0 auto;
+	/*background: pink;*/
+	overflow: hidden;
+/*	Логотип при установке маржин20 передал родителю свойство*/
+}
+.mmenu {
+	/*display: none;*/
+	width: 200px;
+	height: 100vh;
+	background-color: #0d0d51;
+	/*Для адаптивной верстки, обратить внимание
+	VH-высота*/
+	position: fixed;
+	left: 0;
+	top: 0;
+	margin-left: -180px;
+	transition: all ease 500ms;
+}
+.mmenu:hover {
+	margin-left: 0;
+}
+.mmenu ul {
+	padding: 20px;
+}
+.mmenu ul li {
+	line-height: 150%;
+	list-style-type: none; 
+
+}
+.mmenu a {
+	color: #fff;
+}
+#up {
+	padding:5px 10px;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	background: rgba(0,0,0, .5);
+	border-radius: 5px;
+	/*color: #fff;*/
+}
+#up a {
+	color: #fff;
+	text-decoration: none;
+}
+.logo {
+	max-width: 610px;
+	width: 60%;
+	display: block;
+	margin: 20px auto;
+}
+nav {
+	height: 30px;
+	line-height: 30px;
+	background-color: #0d0d51;
+	text-align: center;
+	margin: 30px 0;
+}
+nav li {
+	display: inline-block;
+}
+nav li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 5px;
+	font-size: 14px;
+}
+section {
+	padding: 10px;
+	background: #f7f7f7;
+	margin: 20px 0;
+}
+p {
+	line-height: 150%;
+	margin: 20px 0;
+	text-indent: 20px;
+}
+.two-img {
+	display: block;
+	width: 48%;
+	margin: 1%;
+	float: left;
+/*	img-это строчный элемент
+	расстояние между строчными элементами 4 пикс
+	Поэтому */
+
+}
+.clearfix 	{
+	clear: both;
+}
+@media all and (max-width: 900px) {
+	.wrap{width: 90%;
+		}
+}
+@media all and (max-width: 768px) {
+	nav{display: none;}
+	.mmenu {display: block;}
+	.two-img {
+		width: 98%;
+		margin: 1%;
+	}
+}	
+/*header {
+	width: 80%;
+}
+img {width: 100%;}
+@media all and (max-width: 768px) {
+	.mmenu{display: block;
+		nav:;}
+}*/

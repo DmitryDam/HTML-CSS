@@ -1,0 +1,201 @@
+/*.task1 td, .task1 th{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+*/
+.task1 td, .task1 th{
+	border: 1px solid black;
+/*	border-collapse: collapse;*/
+    padding: 5px 10px;
+}
+.task1 {
+		border-collapse: collapse;
+		margin-bottom: 30px;
+}
+.center {
+	text-align: center;
+}
+.task2 td, .task2 th {
+	width: 200px;
+	text-align: left;
+	height: 30px;
+}
+.task2 th {
+	border-bottom: 1px solid grey;
+
+}
+.task2 {
+		border-collapse: collapse;
+		margin-bottom: 30px;
+}
+
+.task3 td, .task3 th {
+	width: 200px;
+	text-align: left;
+	height: 30px;
+	border-bottom: 1px solid grey;
+
+}
+.task3 {
+		border-collapse: collapse;
+		margin-bottom: 30px;
+}
+
+.table-container {
+	padding-left: 10px;
+	width: 590px;
+	min-height: 200px;
+	border: 1px solid grey;
+	border-radius: 5px ;
+	box-shadow: 0px 0px 10px grey;
+	position: relative;
+	padding-top: 15px;
+}
+.table-container::before {
+    content: "X";
+    font-size: 14pt;
+    font-weight: bold;
+    display: block;
+    height: 25px;
+    width: 25px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 25px;
+    line-height: 24px;
+    padding: 2px;
+    border-style: double;
+    border-width: 5px;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+/*.btn-close {
+	width: 16px;
+	height: 16px;
+	border: 1px solid grey;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0px 0px 10px 2px grey;
+	background: black;
+	color: white;
+	position: absolute;
+	right: -8px;
+	top: -8px;
+	line-height: 13px;
+}*/
+/*.btn-close::before {
+
+        
+    content: "";   
+    display: inline-block;
+   	width: 16px;
+	height: 16px;
+    position: absolute;
+    right: 20;
+    top: 10;
+        
+}*/
+
+
+.task4 {
+
+border-collapse: collapse;
+width: 570px;
+vertical-align: middle;
+}
+
+.smallred {
+	height: 30px;
+	width: 30px;
+	background: red;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 0px;
+
+}
+.redlist {
+	color: #dc4e45;
+
+}
+.bigred {
+	height: 30px;
+	width: 60px;
+	background: #dc4e45;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 14px;
+
+}
+.task4 td {
+	text-align: left;
+	border-top: 1px solid grey;
+	padding: 5px 10px 20px 10px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.task4 th {
+	text-align: left;
+	padding:10px;
+	font-family: sans-serif;
+	font-size: 12px;
+}
+.footer {
+	/*border: 1px solid black;*/
+	width: 570px;
+	box-shadow:inset -5px 0px 0px 0px lightgrey;
+	padding-right: 5px;
+}
+.firstp{
+	text-align: right;
+	margin-bottom: 0;
+	font-size: 18px;
+	font-family: sans-serif;
+
+}
+.secondp {
+	text-align: right;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	color: grey;
+	font-family: sans-serif;
+
+}
+.last {
+	color: #dc4e45;
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 0;
+	font-family: sans-serif;
+}
+td.redblock {
+	/*padding: auto;
+	line-height: 50px;*/
+/*	vertical-align: middle;*/
+	padding: 0px;
+	/*text-align: center;
+}*/
+
+/*Обращения к ячейкам таблицы
+tr:nth-of-type(5), tr:nth-of-type(6), tr:nth-of-type(7), tr:nth-of-type(8), tr:nth-of-type(9)  {
+	border-bottom: none;
+}
+
+tr td:nth-child(5), tr td:nth-child(6) {
+	padding: 0 2px;
+}
+tr td:nth-child(7) {
+	padding: 0 35px 0 2px;
+}
+tr td:last-of-type {
+      padding-right: 10px;
+  } */
